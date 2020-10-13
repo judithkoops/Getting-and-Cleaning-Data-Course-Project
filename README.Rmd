@@ -1,0 +1,20 @@
+---
+title: "README"
+author: "Judith C. Koops"
+date: "13-10-2020"
+output: html_document
+---
+
+# Getting and Cleaning Data Course Project
+
+The dataset includes the following files:
+
+- 'README.txt'
+
+- 'CourseProject.R': script for performing the analysis
+
+- 'activity.csv': tidy dataset based on Human Activity Recognition Using Smartphines Data Set
+
+- 'av_activity.csv': tidy dataset providing mean of variables in 'activity.csv' dataset, grouped by volunteer ID and Activity.
+
+- 'CodeBook.txt': describes the variables, the data, and any transformations that have been  performed to clean up the data 

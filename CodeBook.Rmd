@@ -1,0 +1,53 @@
+---
+title: "CodeBook"
+author: "Judith C. Koops"
+date: "13-10-2020"
+output: html_document
+---
+
+# Getting and Cleaning Data Course Project
+
+### Data set activity.csv
+
+The data set activity.csv contains a tidy version of the Human Activity Recognition Using Smartphines Data Set. For more info on the original dataset see: 
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+
+Note variables tBodyAccmeanX:tBodyGyrostdZ have been transformed from a string variable to a numeric variable
+
+Description of activity.csv data set
+
+nr of rows: 10,299 ; nr of columns: 22
+
+Variable description
+"ID" (int) - Volunteer Identifyer - Obtained from datafiles subject_train.txt & subject.test.txt              
+"Group" (chr) - Indicates if volunteer belonged to training or test group            
+"Activity" (chr) - Activity name -  Obtained from datafiles y_train.txt & y_test.txt
+"tBodyAccmeanX" (dbl) - Mean value tBodyAcc-X - Obtained from datafiles X_train.txt & X_test.txt 
+"tBodyAccmeanY" (dbl) - Mean value tBodyAcc-Y - Obtained from datafiles X_train.txt & X_test.txt   
+"tBodyAccmeanZ" (dbl) - Mean value tBodyAcc-Z - Obtained from datafiles X_train.txt & X_test.txt   
+"tBodyAccstdX" (dbl) - Standard deviation tBodyAcc-X - Obtained from datafiles X_train.txt & X_test.txt    
+"tBodyAccstdY" (dbl) - Standard deviation tBodyAcc-Y - Obtained from datafiles X_train.txt & X_test.txt     
+"tBodyAccstdZ" (dbl) - Standard deviation tBodyAcc-Z - Obtained from datafiles X_train.txt & X_test.txt     
+"tGravityAccmeanX" (dbl) - Mean value tGravityAcc-X - Obtained from datafiles X_train.txt & X_test.txt 
+"tGravityAccmeanY" (dbl) - Mean value tGravityAcc-Y - Obtained from datafiles X_train.txt & X_test.txt
+"tGravityAccmeanZ" (dbl) - Mean value tGravityAcc-Z - Obtained from datafiles X_train.txt & X_test.txt
+"tGravityAccstdX" (dbl) - Standard deviation tGravityAcc-X - Obtained from datafiles X_train.txt & X_test.txt   
+"tGravityAccstdY" (dbl) - Standard deviation tGravityAcc-Y - Obtained from datafiles X_train.txt & X_test.txt  
+"tGravityAccstdZ" (dbl) - Standard deviation tGravityAcc-Z - Obtained from datafiles X_train.txt & X_test.txt
+"tBodyGyromeanX" (dbl) - Mean value tBodyGyro-X - Obtained from datafiles X_train.txt & X_test.txt   
+"tBodyGyromeanY" (dbl) - Mean value tBodyGyro-Y - Obtained from datafiles X_train.txt & X_test.txt  
+"tBodyGyromeanZ" (dbl) - Mean value tBodyGyro-Z - Obtained from datafiles X_train.txt & X_test.txt  
+"tBodyGyrostdX" (dbl) - Standard deviation tBodyGyro-X - Obtained from datafiles X_train.txt & X_test.txt  
+"tBodyGyrostdY" (dbl) - Standard deviation tBodyGyro-Y - Obtained from datafiles X_train.txt & X_test.txt   
+"tBodyGyrostdZ" (dbl) - Standard deviation tBodyGyro-Z - Obtained from datafiles X_train.txt & X_test.txt  
+
+### Data set av_activity.csv
+
+The data set av_activity.csv contains the mean of tBodyAccmeanX - tBodyGyrostdZ of the activity.csv dataset, grouped by ID & Actvity.
+
+Description of av_activity.csv data set
+
+nr of rows: 180 ; nr of columns: 21
+
+Variable description: see explanation of variables above.
+
