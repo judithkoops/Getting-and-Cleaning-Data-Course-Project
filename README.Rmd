@@ -11,7 +11,7 @@ The dataset includes the following files:
 
 - 'README.txt'
 
-- 'CourseProject.R': script for performing the analysis
+- 'run_analysis.R': script for performing the analysis
 
 - 'activity.csv': tidy dataset based on Human Activity Recognition Using Smartphines Data Set
 
